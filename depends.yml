@@ -5,7 +5,10 @@ resources:
     - pipeline: source
       project: Pipelining
       source: source
-      trigger: true
+      trigger: 
+        branches:
+          include:
+          - master
 steps:
   - checkout: none
   - script: echo 'triggered depends'
