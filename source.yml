@@ -1,3 +1,6 @@
+trigger: master
+pr: none
+
 steps:
   # required to cause pipeline triggering downstream
   - task: CopyFiles@2
@@ -8,4 +11,3 @@ steps:
     inputs:
       pathtoPublish: $(Build.ArtifactStagingDirectory)
       artifactName: dummy-$(Build.BuildId)
-      publishLocation: Container
