@@ -1,0 +1,11 @@
+trigger: none
+pr: none
+resources:
+  pipelines:
+    - pipeline: source
+      project: 'Timeline-CV'
+      source: source
+      trigger: true
+steps:
+  - checkout: none
+  - script: echo 'triggered depends'
