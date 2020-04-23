@@ -1,4 +1,5 @@
-trigger: master
+trigger: 
+  branches: master
 pr: none
 
 steps:
