@@ -3,6 +3,7 @@ pr: none
 resources:
   pipelines:
     - pipeline: source
+      project: Pipelining
       source: source
       trigger: true
 steps:
