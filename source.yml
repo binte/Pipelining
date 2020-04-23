@@ -1,5 +1,8 @@
-trigger: 
-  branches: master
+trigger:
+  branches:
+    include: # branch names which will trigger a build
+    - master
+    - release
 pr: none
 
 steps:
