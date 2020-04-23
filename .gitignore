@@ -1,0 +1,50 @@
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+*.swp
+*.*~
+.DS_Store
+*.pyc
+*.dbmdl
+*.jfm
+
+Logs/
+Secrets/
+TestResults/
+node_modules/
+
+db.lock
+coverage.json
+appsettings.json
+project.lock.json
+coverage.json
+
+# Visual Studio Code
+.vscode
+
+# Visual Studio 2015
+.vs/
+
+# Helper files, like commands and DB populate script
+/Helpers/
+
+# Sonarqube output folder
+/.sonarqube
